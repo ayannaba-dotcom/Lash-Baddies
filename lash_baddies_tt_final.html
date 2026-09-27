@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lash Baddies TT</title>
+<meta name="description" content="Lash Baddies TT — cluster lashes in Trinidad & Tobago. Come get lashes baddie.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Montserrat:wght@400;600;700&family=Parisienne&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#050505;color:#fff;font-family:Montserrat,Arial,sans-serif}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:rgba(5,5,5,.88);backdrop-filter:blur(10px)}
+.logo{font-family:"Bodoni Moda",serif;font-size:19px;font-weight:700;letter-spacing:2px}
+.navlinks{display:flex;gap:24px;font-size:12px;font-weight:600}
+.navlinks a:hover{color:#ff2f8a}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:110px 20px 70px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:480px;height:480px;border-radius:50%;background:#ff2f8a;filter:blur(130px);opacity:.13}
+.content{position:relative;z-index:1}
+.eyebrow{font-size:11px;letter-spacing:4px;color:#ff8fc4;margin-bottom:20px}
+h1{font-family:"Bodoni Moda",serif;font-size:clamp(48px,11vw,105px);line-height:.95;letter-spacing:2px}
+.script{font-family:Parisienne,cursive;color:#ff2f8a;font-size:clamp(32px,7vw,62px);margin:24px 0}
+.sub{color:#d9d9e0;font-size:13px;letter-spacing:2px}
+.btn{display:inline-block;margin-top:30px;background:#ff2f8a;color:#fff;padding:15px 30px;border-radius:3px;font-weight:700;font-size:12px;letter-spacing:2px;transition:.2s}
+.btn:hover{transform:translateY(-2px);background:#ff4fa3}
+.sparkle{position:absolute;color:#ff8fc4;font-size:28px}
+.s1{top:28%;left:12%}.s2{top:20%;right:13%;font-size:20px}.s3{bottom:20%;left:19%;font-size:18px}.s4{bottom:25%;right:16%}
+section{padding:90px 7%}
+.section-title{text-align:center;font-family:"Bodoni Moda",serif;font-size:42px}
+.section-script{text-align:center;color:#ff2f8a;font-family:Parisienne,cursive;font-size:32px;margin:8px 0 40px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1050px;margin:auto}
+.card{border:1px solid #242124;background:#0b0a0b;padding:30px;text-align:center;min-height:220px;display:flex;flex-direction:column;justify-content:center}
+.card .icon{font-size:35px;color:#ff8fc4;margin-bottom:15px}
+.card h3{font-family:"Bodoni Moda",serif;font-size:25px;margin-bottom:10px}
+.card p{font-size:13px;color:#bdb9bd;line-height:1.7}
+.price{color:#ff8fc4;font-weight:700;margin-top:15px}
+.booking{background:#0b0a0b;text-align:center}
+.booking p{color:#bdb9bd;max-width:550px;margin:15px auto;line-height:1.7;font-size:14px}
+.contact{text-align:center}
+.social{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:20px}
+.social a{border:1px solid #333;padding:13px 20px;font-size:12px;font-weight:700}
+.social a:hover{border-color:#ff2f8a;color:#ff2f8a}
+footer{border-top:1px solid #1d1b1d;text-align:center;padding:25px;color:#777;font-size:11px;letter-spacing:1px}
+@media(max-width:700px){
+ nav{padding:15px 5%}.navlinks{gap:12px;font-size:10px}.logo{font-size:15px}
+ .cards{grid-template-columns:1fr}
+ section{padding:70px 6%}
+}
+
+/* Luxe gemstone accents */
+.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 20% 30%,rgba(255,47,138,.08),transparent 28%),radial-gradient(circle at 80% 70%,rgba(255,143,196,.06),transparent 25%)}
+.card{border-color:rgba(255,47,138,.35);box-shadow:0 0 0 1px rgba(255,255,255,.02) inset,0 12px 35px rgba(0,0,0,.35);position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;top:12px;right:14px;width:10px;height:10px;background:#ff8fc4;transform:rotate(45deg);box-shadow:0 0 12px #ff2f8a;opacity:.8}
+.card:after{content:"✦";position:absolute;bottom:10px;left:14px;color:#ff2f8a;font-size:13px;opacity:.7}
+.social a{border-color:rgba(255,47,138,.4);border-radius:999px}
+.sparkle{filter:drop-shadow(0 0 8px rgba(255,47,138,.8));animation:twinkle 2.4s ease-in-out infinite}
+.s2{animation-delay:.5s}.s3{animation-delay:1s}.s4{animation-delay:1.5s}
+@keyframes twinkle{0%,100%{opacity:.45;transform:scale(.9) rotate(0deg)}50%{opacity:1;transform:scale(1.18) rotate(10deg)}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="#home">LASH BADDIES TT</a>
+  <div class="navlinks">
+    <a href="#lashes">LASHES</a>
+    <a href="#booking">BOOK</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span>
+  <span class="sparkle s3">✦</span><span class="sparkle s4">✧</span>
+  <div class="content">
+    <div class="eyebrow">CLUSTER LASHES • TRINIDAD & TOBAGO</div>
+    <h1>LASH BADDIES<br>TT</h1>
+    <div class="script">come get lashes baddie 🎀</div>
+    <div class="sub">SOFT • FLUFFY • GLAMOROUS • CUSTOMIZABLE</div>
+    <a class="btn" href="#booking">BOOK NOW</a>
+  </div>
+</header>
+
+<section id="lashes">
+  <h2 class="section-title">OUR LASHES</h2>
+  <div class="section-script">pick your vibe</div>
+  <div class="cards">
+    <div class="card"><div class="icon">✦</div><h3>Soft Baddie</h3><p>Light, wispy cluster lashes for a soft glam look.</p><div class="price">Custom pricing</div></div>
+    <div class="card"><div class="icon">✧</div><h3>Glam Baddie</h3><p>Fuller, fluffier clusters when you want extra drama.</p><div class="price">Custom pricing</div></div>
+    <div class="card"><div class="icon">♡</div><h3>Custom Set</h3><p>Tell us the vibe you want and create your own lash look.</p><div class="price">Custom pricing</div></div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <h2 class="section-title">READY TO GET LAShed?</h2>
+  <div class="section-script">come get lashes baddie</div>
+  <p>Send us a message to choose your lash style, ask questions, and arrange your appointment.</p>
+  <a class="btn" href="https://www.instagram.com/lashbaddies.tt?stkn=MTV5bzVnOTU3YTdrOQ%3D%3D&utm_source=qr" target="_blank">BOOK THROUGH INSTAGRAM</a>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">LET'S GET SOCIAL</h2>
+  <div class="section-script">@lashbaddiestt</div>
+  <div class="social">
+    <a href="https://www.instagram.com/lashbaddies.tt?stkn=MTV5bzVnOTU3YTdrOQ%3D%3D&utm_source=qr" target="_blank">INSTAGRAM</a>
+    <a href="https://wa.me/18683511923" target="_blank">WHATSAPP</a>
+  </div>
+</section>
+
+<footer>© 2026 LASH BADDIES TT • TRINIDAD & TOBAGO</footer>
+</body>
+</html>
